@@ -25,3 +25,7 @@ header, section {
 section article h2, p {
   margin-bottom: 10px;
 }
+
+#css-id-selector span {
+  color: darkred;
+}
