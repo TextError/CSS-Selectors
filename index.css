@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+header, section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section article h2, p {
+  margin-bottom: 10px;
+}
