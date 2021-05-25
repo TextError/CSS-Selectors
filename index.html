@@ -12,21 +12,41 @@
       <h1>CSS Selectors</h1>
     </header>
     <section>
-      <article>
+      <header>
         <h2>Basic CSS Selectors</h2>
+      </header>
+      <article>
+        <h3>CSS Element (type) selector</h3>
         <p>h1, h2, p</p>
       </article>
-    </section>
-    <section id='css-id-selector'>
-      <article>
-        <h2>CSS id selector</h2>
+      <article id='css-id-selector'>
+        <h3>CSS id selector</h2>
         <p><span>#</span>id-name</p>
       </article>
-    </section>
-    <section class='css-class-selector'>
-      <article>
-        <h2>CSS class selector</h2>
+      <article class='css-class-selector'>
+        <h3>CSS class selector</h2>
         <p><span>.</span>id-name</p>
+      </article>
+    </section>
+    <section>
+      <header>
+        <h2>Advanced CSS Selectors</h2>
+      </header>
+      <article>
+        <header>
+          <h3>CSS attribute selectors</h3>
+          <p>ex: id, name, value.</p>
+        </header>
+        <h4 title="title">Present attribute selector</h4>
+        <p>h4[title]</p>
+        <h4 title="second-title">Equals attribute selector</h4>
+        <p>h4[title="second-title"]</p>
+        <h4 title="third-title">Begins with attribute selector</h4>
+        <p>h4[title^="third"]</p>
+        <h4 title="fourth">Ends with attribute selector</h4>
+        <p>h4[title$="fourth"]</p>
+        <h4 title="fifth-title">Contains attribute selector</h4>
+        <p>h4[title*="fifth"]</p>
       </article>
     </section>
     <footer></footer>

@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
   margin: 20px;
 }
 
@@ -17,15 +18,35 @@ h2 {
   font-size: 26px;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 header, section {
   margin-bottom: 20px;
   text-align: center;
 }
 
-section article h2, p {
+section article h3, p {
   margin-bottom: 10px;
 }
 
 #css-id-selector span, .css-class-selector span {
   color: darkred;
+}
+
+h4[title] {
+  color: darkred;
+}
+h4[title='second-title'] {
+  color: brown;
+}
+h4[title^='third'] {
+  color: chocolate;
+}
+h4[title$='fourth'] {
+  color: orangered;
+}
+h4[title*="fifth"] {
+  color: tomato;
 }
