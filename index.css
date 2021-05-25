@@ -26,6 +26,6 @@ section article h2, p {
   margin-bottom: 10px;
 }
 
-#css-id-selector span {
+#css-id-selector span, .css-class-selector span {
   color: darkred;
 }
