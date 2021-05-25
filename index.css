@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   margin: 20px;
 }
@@ -27,7 +27,7 @@ header, section {
   text-align: center;
 }
 
-section article h3, p {
+section article p {
   margin-bottom: 10px;
 }
 
@@ -35,18 +35,32 @@ section article h3, p {
   color: darkred;
 }
 
-h4[title] {
+h3[title] {
   color: darkred;
 }
-h4[title='second-title'] {
-  color: brown;
+h3[title="second-title"] {
+  color: darkred;
 }
-h4[title^='third'] {
-  color: chocolate;
+h3[title^="third"] {
+  color: darkred;
 }
-h4[title$='fourth'] {
-  color: orangered;
+h3[title$="fourth"] {
+  color: darkred;
 }
-h4[title*="fifth"] {
-  color: tomato;
+h3[title*="fifth"] {
+  color: darkred;
+}
+
+.descendant-selector p {
+  color: darkred;
+}
+div[title^="child"] > p {
+  color: darkred;
+}
+div[title^="adjacent"] h3 + p {
+  color: darkred;
+}
+
+div[title^="general"] h3 ~ p {
+  color: darkred;
 }

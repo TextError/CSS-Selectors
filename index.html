@@ -17,7 +17,7 @@
       </header>
       <article>
         <h3>CSS Element (type) selector</h3>
-        <p>h1, h2, p</p>
+        <p>h1, h2, h3, p</p>
       </article>
       <article id='css-id-selector'>
         <h3>CSS id selector</h2>
@@ -33,20 +33,53 @@
         <h2>Advanced CSS Selectors</h2>
       </header>
       <article>
-        <header>
+        <div>
           <h3>CSS attribute selectors</h3>
           <p>ex: id, name, value.</p>
-        </header>
-        <h4 title="title">Present attribute selector</h4>
-        <p>h4[title]</p>
-        <h4 title="second-title">Equals attribute selector</h4>
-        <p>h4[title="second-title"]</p>
-        <h4 title="third-title">Begins with attribute selector</h4>
-        <p>h4[title^="third"]</p>
-        <h4 title="fourth">Ends with attribute selector</h4>
-        <p>h4[title$="fourth"]</p>
-        <h4 title="fifth-title">Contains attribute selector</h4>
-        <p>h4[title*="fifth"]</p>
+        </div>
+        <div>
+          <h3 title="title">Present attribute selector</h3>
+          <p>h3[title]</p>
+        </div>
+        <div>
+          <h3 title="second-title">Equals attribute selector</h3>
+          <p>h3[title="second-title"]</p>
+        </div>
+        <div>
+          <h3 title="third-title">Begins with attribute selector</h3>
+          <p>h3[title^="third"]</p>
+        </div>
+        <div>
+          <h3 title="fourth">Ends with attribute selector</h3>
+          <p>h3[title$="fourth"]</p>
+        </div>
+        <div>
+          <h3 title="fifth-title">Contains attribute selector</h3>
+          <p>h3[title*="fifth"]</p>
+        </div>
+      </article>
+    </section>
+    <section>
+      <header>
+        <h2>Combination selectors</h2>
+      </header>
+      <article>
+        <div class="descendant-selector">
+          <h3>Descendant combination selector</h3>
+          <p>div p</p>
+        </div>
+        <div title='child-selector'>
+          <h3>Child combination selector</h3>
+          <p>.child-selector > p</p>
+        </div>
+        <div title="adjacent-selector">
+          <h3>Adjacent sibling combination selector</h3>
+          <p>h3 + p</p>
+        </div>
+        <div title="general-seletor">
+          <h3>General sibling combination selector</h3>
+          <p>h3 ~ p</p>
+        </div>
       </article>
     </section>
     <footer></footer>
